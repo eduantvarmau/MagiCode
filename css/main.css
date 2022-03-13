@@ -251,3 +251,13 @@ textarea{
 .card-title{
     font-size: 30px;
 }
+
+/* BTN SEARCH*/
+.btnSearch{
+    background-color: var(--ColorDarkPurple);
+    border: none;
+    color: var(--ColorWhite);
+}
+.btnSearch:hover{
+    color: var(--ColorBlack);
+}
