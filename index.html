@@ -19,33 +19,38 @@
 </head>
 <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navStyle ">   
-        <a class="navbar-brand" href="#">
-          <img src="src/img/icons/logo.png" alt="" width="40px">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a type="button" class="btn btnNav" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item active">
-              <a type="button" class="btn btnNav" href="page/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item active">
-              <a type="button" class="btn btnNav" href="page/servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item active">
-              <a type="button" class="btn btnNav" href="page/crear.html">Crear servicio</a>
-            </li>
-            <li class="nav-item active">
-              <a type="button" class="btn btnNav" href="page/contacto.html">Contacto</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button type="button" class="btn btnLogin">INGRESAR</button>
-          </form>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="../src/img/icons/logo.png" alt="" width="40px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse affix" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a type="button" class="btn btnNav" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a type="button" class="btn btnNav" href="./page/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item active">
+            <a type="button" class="btn btnNav" href="./page/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item active">
+            <a type="button" class="btn btnNav" href="./page/crear.html">Crear servicio</a>
+          </li>
+          <li class="nav-item active">
+            <a type="button" class="btn btnNav" href="./page/contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 affix">
+          <button type="button" class="btn btnLogin">INGRESAR</button>
+        </form>
+      </div>
+    </nav>
       <!--JUMBOTRON-->
       <header class="jumbotron jumbotronInicio">
         <div class="heroText">
@@ -63,7 +68,7 @@
         <h3 class="text-center titlePurple">Nosotros te brindamos los conocimientos pero tú creas la magia</h3>
         <p class="text-justify parrafoStyle">Actualmente el mundo esta evolucionando a una nueva era digitalizada, debido a esto cada vez hay más demanda de programadores
             en el mundo. En MagiCode formamos desarrolladores FullStack, les brindamos las heramientas y las bases para que puedan
-            desempeñarse en el campo de TI totalmente gratis.
+            desempeñarse en el campo de TI a un bajo costo.
         </div>
         <div>
             <img src="src/img/wallpapers/codigo.png" alt="" width="450px">
@@ -104,7 +109,7 @@
             <li class="titlePurple parrafoStyle">¿Como puedo comenzar a estudiar?</li>
             <p>Tienes que llenar la solicitud de ingreso y una vez que seas aceptado te enviaremos los datos de acceso a tu correo. Una vez dentro ya seras un MagiCoder</p>
             <li class="titlePurple">¿Tiene algún costo estudiar en MagiCode?</li>
-            <p>No tiene ningún costo.</p>
+            <p>Si, tambien brindamos la oportunidad de que puedas ser acreedor de una beca.</p>
             <li class="titlePurple">¿A qué hora son las clases?</li>
             <p>Avanzas a tu ritmo, ademas contamos con sesiones en vivo donde nuestros instructores resolveran todas tus dudas.</p>
             <li class="titlePurple">¿Que tipo de computadora necesito?</li>
@@ -134,7 +139,7 @@
 
 
     <!--FOOTER-->
-    <footer class="">
+    <footer class="foo">
         <h4 class="text-center textFooter">Nuestras Redes</h4>
         <div class="iconContStyle">
           <a href= "" target="_blank">
@@ -159,14 +164,6 @@
       </footer>
 
 
-
-
-
-
-
-
-
-
     <!--SCRIPTS DE BOOTSTRAP-->
     <script 
         src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
@@ -180,5 +177,6 @@
     </script>
     <!--ESTILOS DE JS-->
     <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

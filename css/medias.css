@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+
+.btnJB{
+    width: 400px;
+
+}
+
+.container04{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container02{
+    width: 400px;
+}
+.container07{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 400px;
+}
+
+.container01{
+    width: 400px;
+}
+.container03{
+    display: flex;
+    flex-direction: column;
+}
+.footerStyle{
+   display: flex;
+   text-align: center;
+}
+}
+
+
+
