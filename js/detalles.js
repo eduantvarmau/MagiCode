@@ -25,5 +25,5 @@ deleteBtn.addEventListener("click", () => {
 });
 
 editBtn.addEventListener("click", () => {
-  window.location.href = `/servicios.html?productId=${productId}`;
+  window.location.href = `/actualización.html?productId=${productId}`;
 });
