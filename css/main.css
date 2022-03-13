@@ -1,0 +1,16 @@
+/* SE DECLARARON VARIABLES PARA LOS COLORES */
+:root{
+    --ColorLightPurple: #d2a0f5;
+    --ColorDarkPurple: #d2a0f5;
+    --ColorWhite: #fff;
+    --ColorBlack: #000; 
+    --ColorLightGray: #707789;
+    --ColorDarkGray: #636978; 
+    --ColorLightYellow: #fff8ab;
+    --ColorDarkYellow: #ffee6e;
+}
+
+/* SE DECLARARO EL TIPO DE FUENTE */
+body{
+    font-family: 'Poppins', sans-serif;
+}
