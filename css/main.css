@@ -1,3 +1,6 @@
+/* IMPORTACIÓN DE LOS ESTILOS CSS */
+@import url(inicio.css);
+
 /* SE DECLARARON VARIABLES PARA LOS COLORES */
 :root{
     --ColorLightPurple: #d2a0f5;
@@ -8,9 +11,125 @@
     --ColorDarkGray: #636978; 
     --ColorLightYellow: #fff8ab;
     --ColorDarkYellow: #ffee6e;
+    --ColorPurple:  rgb(86, 33, 107);
+    --ColorPurpleDemo: #654ea3;
 }
 
 /* SE DECLARARO EL TIPO DE FUENTE */
 body{
     font-family: 'Poppins', sans-serif;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #df9ef0, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #df9ef0, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
+
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN */
+
+.navStyle{
+    background-color: var(--ColorWhite);
+}
+.btnNav{
+    background-color: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: var(--ColorBlack);
+    
+}
+
+.btnNav:hover{
+   
+    background-color: var(--ColorDarkPurple);
+    border-radius: 20px;
+    color: var(--ColorWhite);
+    border-style: solid;
+    
+} 
+
+.btnLogin{
+     
+    background-color: var(--ColorDarkPurple);
+    border-radius: 20px;
+    color: var(--ColorWhite);
+    border-style: solid;
+    border-color: var(--ColorDarkPurple);
+}
+
+
+/* ESTILO BASE DEL JUMBOTRON */ 
+.jumbotronInicio{
+    color: var(--ColorWhite);
+    letter-spacing: 3px;
+    border-radius: 0%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/img/wallpapers/img-jb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+  
+  }
+  
+  /*ESTILO IMAGEN DEL JUMBOTRON*/
+  
+  .heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  /* ESTILO DEL BOTÓN DEL JUMBOTRON*/
+  
+  .btnJB{
+    background-color: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    border-color: var(--ColorDarkPurple);
+    color: var(--ColorWhite);
+    
+  }
+
+  .btnJB:hover{
+    background-color: rgba(210, 160, 245, 0.9);
+    border-radius: 20px;
+    color: var(--ColorWhite);
+    }
+
+/* ESTILOS DEL FOOTER */ 
+footer{
+    background-color:  var(--ColorWhite);
+   border-top: solid var(--ColorDarkPurple);
+    border-color: var(--ColorDarkPurple);
+}
+/* ESTILOS DEL TEXTO DEL FOOTER */ 
+.textFooter{
+    margin-top: 25px;
+    font-weight: bolder;
+}
+  
+.footerStyle{
+    background-color: var(--ColorDarkPurple);
+    color: var(--ColorWhite);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+ /* Contenedor de los iconos*/ 
+.iconContStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+}
+/* Iconos */
+.iconStyle{
+    margin:20px;
+}
+

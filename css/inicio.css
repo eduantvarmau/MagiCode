@@ -1,0 +1,84 @@
+.container02{
+    margin: auto;
+     width: 1132px;
+     padding: 30px;
+     box-sizing: border-box;
+     margin-top: 130px;
+     margin-bottom: 120px;
+     color: var(--ColorPurple);
+     line-height:  1.5;
+     letter-spacing: 1px;
+     border-radius: 15px; 
+ }
+ .text1{
+     font-size: 34px;
+     font-weight: lighter;
+ }
+ .text2{
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+/* CONTAINER BLUR */
+.container01 {
+    margin: auto;
+    width: 1132px;
+    height: 389;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: var(--ColorWhite);
+    line-height:  1.5;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:-3px -3px  rgb(86, 33, 107);
+    align-items: center;
+  }
+  /* CONTAINER PATROCINADORES */
+.container03{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.container04{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
+}
+.container05{
+    color: var(--ColorWhite);
+    
+}
+/* CONTAINER FORMACIÓN*/
+.container07{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
+}
+.container08{
+    color: var(--ColorWhite);
+}
+
+/* ESTILO DE LOS TITULOS MORADOS*/
+
+.titlePurple{
+    color: var(--ColorPurple);
+    font-weight: bold;
+}
+
+.parrafoStyle{
+    margin-top: 40px;
+}
