@@ -13,7 +13,7 @@ const deleteProduct = (productId) => {
     method: "DELETE",
   }).then((res) => {
     if (res.ok) {
-      window.location.href = "/index.html";
+      window.location.href = "/servicios.html";
     } else {
       console.error(res);
     }
@@ -25,5 +25,5 @@ deleteBtn.addEventListener("click", () => {
 });
 
 editBtn.addEventListener("click", () => {
-  window.location.href = `/update.html?productId=${productId}`;
+  window.location.href = `/servicios.html?productId=${productId}`;
 });

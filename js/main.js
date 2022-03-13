@@ -22,7 +22,7 @@ const createProduct = (title, description, price, imageUrl) => {
     })
     .then((product) => {
       productId = product.name;
-      window.location.href = `/details.html?productId=${productId}`;
+      window.location.href = `/servicios.html?productId=${productId}`;
     });
 };
 
@@ -87,7 +87,7 @@ const updateProduct = (title, description, price, imageUrl, productId) => {
     body: JSON.stringify(product),
   }).then((res) => {
     if (res.ok) {
-      window.location.href = `/details.html?productId=${productId}`;
+      window.location.href = `/servicios.html?productId=${productId}`;
     } else {
       console.error(res);
     }
